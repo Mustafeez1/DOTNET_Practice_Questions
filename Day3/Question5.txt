@@ -1,0 +1,7 @@
+I would create an interface like:
+interface IPayment
+{
+    void ProcessPayment();
+}
+Each payment method implements this interface.
+When a new payment method is added, I simply create a new class implementing IPayment without changing the existing code.

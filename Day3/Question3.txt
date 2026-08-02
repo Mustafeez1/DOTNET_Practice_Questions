@@ -1,0 +1,4 @@
+I would use Abstraction and Polymorphism.
+I would create a common base class or interface containing the CalculateDiscount() method.
+Each product type can provide its own discount calculation by overriding or implementing that method.
+This removes duplicate code and makes it easy to add new product types.

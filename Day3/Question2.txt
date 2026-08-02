@@ -1,0 +1,12 @@
+Instead of creating:
+EmailNotification
+SMSNotification
+WhatsAppNotification
+using inheritance, we can create separate sender classes and use composition.
+Notification
+      |
+      |----> EmailSender
+      |
+      |----> SmsSender
+      |
+      |----> WhatsAppSender
